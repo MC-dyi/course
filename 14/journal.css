@@ -18,3 +18,18 @@ h1,h2 {
     color: #c60;
 		border-bottom: thin dotted #888888;
 	}
+body{
+	color: royalblue;
+	color: rgb(216, 227, 231);
+	color: #4169E1CC;
+	color: rgba(39,177,182,0.8);
+	color: #2775b6CC;
+}
+body{
+	background-color: royalblue;
+	background-color: rgb(25%, 41%, 88%);
+	background-color: rgb(238, 166, 183);
+}
+p{
+  font-style: italic;
+}
