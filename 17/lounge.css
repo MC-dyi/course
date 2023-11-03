@@ -15,7 +15,7 @@ h1 {
 h2 {
   font-size:           130%;
 }
-.guarantee {
+#guarantee {
   background-image: url(images/background.gif);
   background-repeat: no-repeat;
   background-position: top left;
@@ -33,11 +33,12 @@ h2 {
   padding-left:        80px;
   margin:              30px;
   margin-right:        250px;
-/*
-  padding-left:        80px;
-  margin-right:        250px;
-  background-image:    url(images/background.gif);
-  background-repeat:   no-repeat;
-  background-position: top left;
-*/
+}
+.a{
+  border-color:        rgb(184, 15, 15);
+  border-width:        1px;
+  border-style:        dashed;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
 }
