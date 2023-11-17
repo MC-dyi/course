@@ -28,7 +28,7 @@ body {
   top:              100px;
   right:            200px;
   float:            right;
-  z-index:          100;
+  z-index:          1;
 }
 
 .footer {
@@ -77,5 +77,5 @@ a:visited {
 	width:               600px;
 	height:               80px;
 	background-color:#ccbb00;
-  z-index:                 1;
+  z-index:               100;
 }
