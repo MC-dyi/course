@@ -16,6 +16,7 @@ body {
   font-size:        105%;
   display:          table-cell;
   vertical-align:   top;
+  padding:          15px;
 }
 
 .sidebar {
@@ -23,6 +24,8 @@ body {
   font-size:        105%;
   display:          table-cell;
   vertical-align:   top;
+  padding:          15px;
+  
 }
 
 .footer {
@@ -62,4 +65,9 @@ div.tableContainer{
 }
 div.talbeRow{
   display:          table-row;
+}
+.drinks {
+    background-color: #efe5d0;
+    padding:        15px;
+    display:        table-cell;
 }
