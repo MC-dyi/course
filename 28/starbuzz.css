@@ -5,13 +5,13 @@ body {
   margin:           0px;
 }
 
-header {
+.header {
   background-color: #675c47;
   margin:           10px;
   height:           108px;
 }
 
-main {
+section.main {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   display:          table-cell;
@@ -87,4 +87,11 @@ nav a, img{
 }
 nav:hover {
 	left:             0px; 
+}
+section.main, section.blog {
+  display: table-cell;
+  background:       #efe5d0 url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
 }
