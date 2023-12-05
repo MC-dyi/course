@@ -1,0 +1,12 @@
+.h{
+  margin-left: 45px;
+  margin-bottom: 15px;
+}
+.one{
+  width: 350px;
+  height: 150px;
+}
+.back{
+  background: url(../imags/1.png) no-repeat;
+  background-size: 100% 100%;
+}
