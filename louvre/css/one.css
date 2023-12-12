@@ -1,12 +1,44 @@
-.h{
-  margin-left: 45px;
-  margin-bottom: 15px;
+*{
+    box-sizing: border-box;
 }
-.one{
-  width: 350px;
-  height: 150px;
+.nav{
+    margin: 35px auto;
+    height: 700px;
+    padding: 1px;
 }
-.back{
-  background: url(../imags/1.png) no-repeat;
-  background-size: 100% 100%;
+.nav ul{
+    list-style: none;
+    margin-left: 30px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    height: 650px;
+
+}
+.nav li{
+    width: 1360px;
+    height: 570px;
+    white-space: nowrap;
+    line-height: 600px;
+    display: inline-block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+
+}
+.CardsSlideshow_ALaUne_icon {
+    display: block;
+    align-self: flex-end;
+    font-size: 1.7142857143em;
+    margin-left: 48px;
+    float: right;
+    margin-right: 90px;
+    position: relative;
+}
+.SvgRWrapper {
+    height: 1em;
+    width: 1em;
+    pointer-events: none;
+    fill: currentColor;
 }

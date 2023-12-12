@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script>
+    window.addEventListener('wheel', function(e) {
+        if (e.deltaY > 0) {
+            window.scrollBy(100, 0);
+        } else {
+            window.scrollBy(-100, 0);
+        }
+    });
+</script>
+</head>
+<body>
+    <section style="background-color: red;"></section>
+    <section style="background-color: blue;"></section>
+    <section style="background-color: green;"></section>
+    <section style="background-color: yellow;"></section>
+    <section style="background-color: purple;"></section>
+</body>
+</html>

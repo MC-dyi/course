@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto/Roboto-Medium-12.ttf);
+}
+.wordA{
+    height: 185px;
+    width: 1400px;
+    padding-left: 60px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.wordB{
+    height: 230px;
+    width: 1400px;
+    padding-left: 60px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.word1{
+    font: 400 20px Roboto,Open-Sans,Arial,Helvetica,sans-serif;
+    height: 50px;
+    letter-spacing: 1.6px;
+}
+.word2{
+    font: 400 38px/1.26 LouvreSerif,Georgia,'Times New Roman',serif;
+    height: 70px;
+    letter-spacing: 2px;
+}
+.word3{
+    height: 35px;
+    font: 400 16px/1.56 Roboto,Open-Sans,Arial,Helvetica,sans-serif;
+}
+.word4{
+    font: 400 38px/1.26 LouvreSerif,Georgia,'Times New Roman',serif;
+    height: 115px;
+    letter-spacing: 2px;
+}
+.word1,.word2,.word3,.word4{
+    margin: 0px;
+}
